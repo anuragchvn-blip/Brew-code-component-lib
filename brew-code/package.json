@@ -1,0 +1,32 @@
+{
+  "name": "brew-code",
+  "version": "1.0.0",
+  "description": "A React component library with coffee-themed UI components.",
+  "main": "src/components/index.js",
+  "module": "src/components/index.js",
+  "types": "src/components/index.d.ts",
+  "files": [
+    "src/components"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "component-library",
+    "coffee"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "brew-code": "^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/preset-env": "^7.26.3",
+    "@babel/preset-react": "^7.26.3"
+  }
+}
